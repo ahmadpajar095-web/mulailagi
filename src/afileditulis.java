@@ -14,7 +14,8 @@ public class afileditulis {
             x.close();
             System.out.println("berhasil menulis file");
         } catch (IOException e) {
-            System.out.println("terjadi kesalahan: " + e.getMessage());
+            String error = ("terjadi kesalahan: " + e.getMessage());
+            System.out.println("terjadi kesalahan: " + error);
         }
 
 

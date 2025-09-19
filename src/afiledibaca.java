@@ -13,6 +13,8 @@ public class afiledibaca {
             }
             reader.close();
         } catch (IOException e) {
+
+            
             System.out.println("Terjadi error: " + e.getMessage());
         }
     }
